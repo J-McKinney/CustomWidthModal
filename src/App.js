@@ -1,5 +1,5 @@
 import React from "react";
-// import MyModal from "./MyModal/MyModal";
+import MyModal from "./MyModal/MyModal";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -20,6 +20,7 @@ function App() {
           Learn React
         </a>
         <br />
+        <MyModal />
       </header>
     </div>
   );
